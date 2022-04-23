@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A126B5A027E1AF4C00A5773B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126B59F27E1AF4C00A5773B /* AppDelegate.swift */; };
+		A126B5A227E1AF4C00A5773B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126B5A127E1AF4C00A5773B /* SceneDelegate.swift */; };
+		A126B5A427E1AF4C00A5773B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126B5A327E1AF4C00A5773B /* ViewController.swift */; };
+		A126B5A727E1AF4C00A5773B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A126B5A527E1AF4C00A5773B /* Main.storyboard */; };
+		A126B5AA27E1AF4C00A5773B /* FloatingTextField.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A126B5A827E1AF4C00A5773B /* FloatingTextField.xcdatamodeld */; };
+		A126B5AC27E1AF4F00A5773B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A126B5AB27E1AF4F00A5773B /* Assets.xcassets */; };
+		A126B5AF27E1AF4F00A5773B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A126B5AD27E1AF4F00A5773B /* LaunchScreen.storyboard */; };
+		A126B5BA27E1AF4F00A5773B /* FloatingTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126B5B927E1AF4F00A5773B /* FloatingTextFieldTests.swift */; };
+		A126B5C427E1AF4F00A5773B /* FloatingTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126B5C327E1AF4F00A5773B /* FloatingTextFieldUITests.swift */; };
+		A126B5C627E1AF4F00A5773B /* FloatingTextFieldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126B5C527E1AF4F00A5773B /* FloatingTextFieldUITestsLaunchTests.swift */; };
+		A126B5D427E1AF5F00A5773B /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126B5D227E1AF5F00A5773B /* MaterialTextField.swift */; };
+		A126B5D527E1AF5F00A5773B /* MaterialTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126B5D327E1AF5F00A5773B /* MaterialTextView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A126B5B627E1AF4F00A5773B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A126B59427E1AF4C00A5773B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A126B59B27E1AF4C00A5773B;
+			remoteInfo = FloatingTextField;
+		};
+		A126B5C027E1AF4F00A5773B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A126B59427E1AF4C00A5773B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A126B59B27E1AF4C00A5773B;
+			remoteInfo = FloatingTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A126B59C27E1AF4C00A5773B /* FloatingTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A126B59F27E1AF4C00A5773B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A126B5A127E1AF4C00A5773B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A126B5A327E1AF4C00A5773B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A126B5A627E1AF4C00A5773B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A126B5A927E1AF4C00A5773B /* FloatingTextField.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FloatingTextField.xcdatamodel; sourceTree = "<group>"; };
+		A126B5AB27E1AF4F00A5773B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A126B5AE27E1AF4F00A5773B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A126B5B027E1AF4F00A5773B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A126B5B527E1AF4F00A5773B /* FloatingTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A126B5B927E1AF4F00A5773B /* FloatingTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextFieldTests.swift; sourceTree = "<group>"; };
+		A126B5BF27E1AF4F00A5773B /* FloatingTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A126B5C327E1AF4F00A5773B /* FloatingTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextFieldUITests.swift; sourceTree = "<group>"; };
+		A126B5C527E1AF4F00A5773B /* FloatingTextFieldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextFieldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A126B5D227E1AF5F00A5773B /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		A126B5D327E1AF5F00A5773B /* MaterialTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A126B59927E1AF4C00A5773B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A126B5B227E1AF4F00A5773B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A126B5BC27E1AF4F00A5773B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A126B59327E1AF4C00A5773B = {
+			isa = PBXGroup;
+			children = (
+				A126B59E27E1AF4C00A5773B /* FloatingTextField */,
+				A126B5B827E1AF4F00A5773B /* FloatingTextFieldTests */,
+				A126B5C227E1AF4F00A5773B /* FloatingTextFieldUITests */,
+				A126B59D27E1AF4C00A5773B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A126B59D27E1AF4C00A5773B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A126B59C27E1AF4C00A5773B /* FloatingTextField.app */,
+				A126B5B527E1AF4F00A5773B /* FloatingTextFieldTests.xctest */,
+				A126B5BF27E1AF4F00A5773B /* FloatingTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A126B59E27E1AF4C00A5773B /* FloatingTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A126B59F27E1AF4C00A5773B /* AppDelegate.swift */,
+				A126B5A127E1AF4C00A5773B /* SceneDelegate.swift */,
+				A126B5A327E1AF4C00A5773B /* ViewController.swift */,
+				A126B5D227E1AF5F00A5773B /* MaterialTextField.swift */,
+				A126B5D327E1AF5F00A5773B /* MaterialTextView.swift */,
+				A126B5A527E1AF4C00A5773B /* Main.storyboard */,
+				A126B5AB27E1AF4F00A5773B /* Assets.xcassets */,
+				A126B5AD27E1AF4F00A5773B /* LaunchScreen.storyboard */,
+				A126B5B027E1AF4F00A5773B /* Info.plist */,
+				A126B5A827E1AF4C00A5773B /* FloatingTextField.xcdatamodeld */,
+			);
+			path = FloatingTextField;
+			sourceTree = "<group>";
+		};
+		A126B5B827E1AF4F00A5773B /* FloatingTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				A126B5B927E1AF4F00A5773B /* FloatingTextFieldTests.swift */,
+			);
+			path = FloatingTextFieldTests;
+			sourceTree = "<group>";
+		};
+		A126B5C227E1AF4F00A5773B /* FloatingTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A126B5C327E1AF4F00A5773B /* FloatingTextFieldUITests.swift */,
+				A126B5C527E1AF4F00A5773B /* FloatingTextFieldUITestsLaunchTests.swift */,
+			);
+			path = FloatingTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A126B59B27E1AF4C00A5773B /* FloatingTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A126B5C927E1AF4F00A5773B /* Build configuration list for PBXNativeTarget "FloatingTextField" */;
+			buildPhases = (
+				A126B59827E1AF4C00A5773B /* Sources */,
+				A126B59927E1AF4C00A5773B /* Frameworks */,
+				A126B59A27E1AF4C00A5773B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatingTextField;
+			productName = FloatingTextField;
+			productReference = A126B59C27E1AF4C00A5773B /* FloatingTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A126B5B427E1AF4F00A5773B /* FloatingTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A126B5CC27E1AF4F00A5773B /* Build configuration list for PBXNativeTarget "FloatingTextFieldTests" */;
+			buildPhases = (
+				A126B5B127E1AF4F00A5773B /* Sources */,
+				A126B5B227E1AF4F00A5773B /* Frameworks */,
+				A126B5B327E1AF4F00A5773B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A126B5B727E1AF4F00A5773B /* PBXTargetDependency */,
+			);
+			name = FloatingTextFieldTests;
+			productName = FloatingTextFieldTests;
+			productReference = A126B5B527E1AF4F00A5773B /* FloatingTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A126B5BE27E1AF4F00A5773B /* FloatingTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A126B5CF27E1AF4F00A5773B /* Build configuration list for PBXNativeTarget "FloatingTextFieldUITests" */;
+			buildPhases = (
+				A126B5BB27E1AF4F00A5773B /* Sources */,
+				A126B5BC27E1AF4F00A5773B /* Frameworks */,
+				A126B5BD27E1AF4F00A5773B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A126B5C127E1AF4F00A5773B /* PBXTargetDependency */,
+			);
+			name = FloatingTextFieldUITests;
+			productName = FloatingTextFieldUITests;
+			productReference = A126B5BF27E1AF4F00A5773B /* FloatingTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A126B59427E1AF4C00A5773B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A126B59B27E1AF4C00A5773B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A126B5B427E1AF4F00A5773B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A126B59B27E1AF4C00A5773B;
+					};
+					A126B5BE27E1AF4F00A5773B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A126B59B27E1AF4C00A5773B;
+					};
+				};
+			};
+			buildConfigurationList = A126B59727E1AF4C00A5773B /* Build configuration list for PBXProject "FloatingTextField" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A126B59327E1AF4C00A5773B;
+			productRefGroup = A126B59D27E1AF4C00A5773B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A126B59B27E1AF4C00A5773B /* FloatingTextField */,
+				A126B5B427E1AF4F00A5773B /* FloatingTextFieldTests */,
+				A126B5BE27E1AF4F00A5773B /* FloatingTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A126B59A27E1AF4C00A5773B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A126B5AF27E1AF4F00A5773B /* LaunchScreen.storyboard in Resources */,
+				A126B5AC27E1AF4F00A5773B /* Assets.xcassets in Resources */,
+				A126B5A727E1AF4C00A5773B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A126B5B327E1AF4F00A5773B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A126B5BD27E1AF4F00A5773B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A126B59827E1AF4C00A5773B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A126B5D527E1AF5F00A5773B /* MaterialTextView.swift in Sources */,
+				A126B5A427E1AF4C00A5773B /* ViewController.swift in Sources */,
+				A126B5A027E1AF4C00A5773B /* AppDelegate.swift in Sources */,
+				A126B5D427E1AF5F00A5773B /* MaterialTextField.swift in Sources */,
+				A126B5A227E1AF4C00A5773B /* SceneDelegate.swift in Sources */,
+				A126B5AA27E1AF4C00A5773B /* FloatingTextField.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A126B5B127E1AF4F00A5773B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A126B5BA27E1AF4F00A5773B /* FloatingTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A126B5BB27E1AF4F00A5773B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A126B5C627E1AF4F00A5773B /* FloatingTextFieldUITestsLaunchTests.swift in Sources */,
+				A126B5C427E1AF4F00A5773B /* FloatingTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A126B5B727E1AF4F00A5773B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A126B59B27E1AF4C00A5773B /* FloatingTextField */;
+			targetProxy = A126B5B627E1AF4F00A5773B /* PBXContainerItemProxy */;
+		};
+		A126B5C127E1AF4F00A5773B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A126B59B27E1AF4C00A5773B /* FloatingTextField */;
+			targetProxy = A126B5C027E1AF4F00A5773B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A126B5A527E1AF4C00A5773B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A126B5A627E1AF4C00A5773B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A126B5AD27E1AF4F00A5773B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A126B5AE27E1AF4F00A5773B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A126B5C727E1AF4F00A5773B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A126B5C827E1AF4F00A5773B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A126B5CA27E1AF4F00A5773B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FloatingTextField/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textfield.FloatingTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A126B5CB27E1AF4F00A5773B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FloatingTextField/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textfield.FloatingTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A126B5CD27E1AF4F00A5773B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textfield.FloatingTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingTextField.app/FloatingTextField";
+			};
+			name = Debug;
+		};
+		A126B5CE27E1AF4F00A5773B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textfield.FloatingTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FloatingTextField.app/FloatingTextField";
+			};
+			name = Release;
+		};
+		A126B5D027E1AF4F00A5773B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textfield.FloatingTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloatingTextField;
+			};
+			name = Debug;
+		};
+		A126B5D127E1AF4F00A5773B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.textfield.FloatingTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FloatingTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A126B59727E1AF4C00A5773B /* Build configuration list for PBXProject "FloatingTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A126B5C727E1AF4F00A5773B /* Debug */,
+				A126B5C827E1AF4F00A5773B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A126B5C927E1AF4F00A5773B /* Build configuration list for PBXNativeTarget "FloatingTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A126B5CA27E1AF4F00A5773B /* Debug */,
+				A126B5CB27E1AF4F00A5773B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A126B5CC27E1AF4F00A5773B /* Build configuration list for PBXNativeTarget "FloatingTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A126B5CD27E1AF4F00A5773B /* Debug */,
+				A126B5CE27E1AF4F00A5773B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A126B5CF27E1AF4F00A5773B /* Build configuration list for PBXNativeTarget "FloatingTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A126B5D027E1AF4F00A5773B /* Debug */,
+				A126B5D127E1AF4F00A5773B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A126B5A827E1AF4C00A5773B /* FloatingTextField.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A126B5A927E1AF4C00A5773B /* FloatingTextField.xcdatamodel */,
+			);
+			currentVersion = A126B5A927E1AF4C00A5773B /* FloatingTextField.xcdatamodel */;
+			path = FloatingTextField.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A126B59427E1AF4C00A5773B /* Project object */;
+}
