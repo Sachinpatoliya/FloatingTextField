@@ -12,7 +12,7 @@ You can set the properties which is shown in the image as per your requirement.
 
 Once you create the outlets of the added fields you need to initialize it with this method inside the DispatchQue
 
-func setUpFields(font: UIFont, leadingImage: String = "", trailingImage: String = "", trailingSelectedImage: String = "", keyboardtype: UIKeyboardType = .default, fieldType: FieldType, cornerradius: CGFloat = 0)
+*func setUpFields(font: UIFont, leadingImage: String = "", trailingImage: String = "", trailingSelectedImage: String = "", keyboardtype: UIKeyboardType = .default, fieldType: FieldType, cornerradius: CGFloat = 0)*
 
 In above mtethod you can pass which font, leading image name, trailing image name, trailingSelected image name if you want any action on the image, keyboard type, field type it's for password or normal field and corner radius.
 
@@ -20,15 +20,15 @@ NOTE: if you are setting up leading and trailing image then you must need to set
 
 To get text you can use this
 
-viewText.getText()
+*viewText.getText()*
 
 To set text you can use this once textfield initialize
 
-viewText.setText(text: "Material design")
+*viewText.setText(text: "Material design")*
 
 To set error message you can use
 
-viewText.errorMessage = "Please insert valid Email address"
+*viewText.errorMessage = "Please insert valid Email address"*
 
 At the end it will looks like this
 
